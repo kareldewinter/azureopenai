@@ -5,16 +5,16 @@ targetScope = 'subscription'
 @minLength(1)
 @maxLength(64)
 @description('Label used to generate a short unique hash used in all resources.')
-param environmentName string = 'tw1'
+param environmentName string = 'kdwt1'
 
 @minLength(1)
 @description('Primary location for all resources')
 param location string = 'eastus'
 
-param resourceGroupName string = 'openai-rg8'
+param resourceGroupName string = 'rg-openai-01'
 
 param openAiSkuName string = 'S0'
-param openAiServiceName string = 'twoaisrv8'
+param openAiServiceName string = 'kdwtoai01'
 
 param chatGptDeploymentName string = 'chat'
 param chatGptModelName string = 'gpt-35-turbo'
